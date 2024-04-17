@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlickFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90411050fdc5a04715f9e1aa173ce584542fcb9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e84ba3f6c0814cca273f7c2ef9b1e4214fd9e42")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlickFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlickFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
