@@ -1,4 +1,5 @@
 ﻿using FlickFlow.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace FlickFlow
 {
@@ -7,7 +8,9 @@ namespace FlickFlow
         public static void AddDependencies(this IServiceCollection services, 
             IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext>();
+            services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(configuration
+            .GetConnectionString("DefaultConn")));
         }
-    }
+    } 
 }

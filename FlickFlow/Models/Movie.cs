@@ -1,5 +1,6 @@
 ﻿using FlickFlow.Data.Enums;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FlickFlow.Models
 {
@@ -20,6 +21,12 @@ namespace FlickFlow.Models
 
         //Cinema
         public int CinemaId { get; set; }
+        [ForeignKey ("CinemaId")]
         public Cinema Cinema { get; set; }
+
+        //Producer
+        public int ProducerId { get; set; }
+        [ForeignKey("ProducerId")]
+        public Producer Producer { get; set; }
     }
 }
