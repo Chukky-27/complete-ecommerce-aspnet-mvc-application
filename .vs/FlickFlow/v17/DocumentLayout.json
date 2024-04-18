@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\data\\enums\\moviecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\data\\enums\\moviecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\models\\actor_movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\actor_movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\models\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,75 +39,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "FlickFlow\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "FlickFlow\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T12:14:50.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovieCategory.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Data\\Enums\\MovieCategory.cs",
-              "RelativeDocumentMoniker": "FlickFlow\\Data\\Enums\\MovieCategory.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Data\\Enums\\MovieCategory.cs",
-              "RelativeToolTip": "FlickFlow\\Data\\Enums\\MovieCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T12:11:21.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "FlickFlow\\Models\\Movie.cs",
               "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Movie.cs",
               "RelativeToolTip": "FlickFlow\\Models\\Movie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T12:07:32.053Z"
+              "WhenOpened": "2024-04-18T12:19:39.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Actor_Movie.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Actor_Movie.cs",
+              "RelativeDocumentMoniker": "FlickFlow\\Models\\Actor_Movie.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Actor_Movie.cs",
+              "RelativeToolTip": "FlickFlow\\Models\\Actor_Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:14:08.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Cinema.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Cinema.cs",
-              "RelativeDocumentMoniker": "FlickFlow\\Models\\Cinema.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Cinema.cs",
-              "RelativeToolTip": "FlickFlow\\Models\\Cinema.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T12:05:27.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Producer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Producer.cs",
               "RelativeDocumentMoniker": "FlickFlow\\Models\\Producer.cs",
               "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Producer.cs",
               "RelativeToolTip": "FlickFlow\\Models\\Producer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T12:04:08.214Z"
+              "WhenOpened": "2024-04-17T12:04:08.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Actor.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Actor.cs",
               "RelativeDocumentMoniker": "FlickFlow\\Models\\Actor.cs",
               "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Models\\Actor.cs",
               "RelativeToolTip": "FlickFlow\\Models\\Actor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:55:25.021Z"
+              "WhenOpened": "2024-04-17T11:55:25.021Z",
+              "EditorCaption": ""
             }
           ]
         }
