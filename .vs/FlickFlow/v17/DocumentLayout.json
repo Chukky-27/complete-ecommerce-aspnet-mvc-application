@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Migrations\\20240418232120_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlickFlow\\Migrations\\20240418232120_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\flickflow\\extensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\extensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,32 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240418232120_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Migrations\\20240418232120_Initial.cs",
-              "RelativeDocumentMoniker": "FlickFlow\\Migrations\\20240418232120_Initial.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Migrations\\20240418232120_Initial.cs",
-              "RelativeToolTip": "FlickFlow\\Migrations\\20240418232120_Initial.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T23:21:20.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ExtensionService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\ExtensionService.cs",
               "RelativeDocumentMoniker": "FlickFlow\\ExtensionService.cs",
               "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\ExtensionService.cs",
               "RelativeToolTip": "FlickFlow\\ExtensionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T22:43:57.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\appsettings.json",
               "RelativeDocumentMoniker": "FlickFlow\\appsettings.json",
@@ -77,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "FlickFlow\\Data\\AppDbContext.cs",
