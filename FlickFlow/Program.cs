@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Configuration;
+
 namespace FlickFlow
 {
     public class Program
@@ -5,12 +7,13 @@ namespace FlickFlow
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            var configuration = builder.Configuration;
 
+            var configuration = builder.Configuration;     
+                        
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddDependencies(configuration);            
+            builder.Services.AddDependencies(configuration);
 
             var app = builder.Build();
 
