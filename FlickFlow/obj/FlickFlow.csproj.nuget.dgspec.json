@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\FlickFlow.csproj": {}
+    "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\FlickFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\FlickFlow.csproj": {
+    "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\FlickFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\FlickFlow.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\FlickFlow.csproj",
         "projectName": "FlickFlow",
-        "projectPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\FlickFlow.csproj",
+        "projectPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\FlickFlow.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\FlickFlow\\obj\\",
+        "outputPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
