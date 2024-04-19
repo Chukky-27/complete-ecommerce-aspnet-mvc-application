@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Configuration;
+
 namespace FlickFlow
 {
     public class Program
@@ -6,8 +8,12 @@ namespace FlickFlow
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            var configuration = builder.Configuration;
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDependencies(configuration);
 
             var app = builder.Build();
 
@@ -29,6 +35,8 @@ namespace FlickFlow
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.SeedDataBase(); //seed database
 
             app.Run();
         }
