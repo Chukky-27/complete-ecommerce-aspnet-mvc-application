@@ -10,7 +10,7 @@ namespace FlickFlow
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddDependencies(configuration);
+            builder.Services.AddDependencies(configuration);            
 
             var app = builder.Build();
 
@@ -32,6 +32,8 @@ namespace FlickFlow
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.SeedDataBase(); //seed database
 
             app.Run();
         }
