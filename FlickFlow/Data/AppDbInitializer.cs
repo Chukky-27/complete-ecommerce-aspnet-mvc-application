@@ -1,8 +1,7 @@
 ﻿using FlickFlow.Data.Enums;
-using FlickFlow.Data;
 using FlickFlow.Models;
 
-namespace FlickFlow
+namespace FlickFlow.Data
 {
     public class AppDbInitializer
     {
@@ -11,11 +10,10 @@ namespace FlickFlow
             using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
             {
                 var context = serviceScope.ServiceProvider.GetService<AppDbContext>();
-
                 context.Database.EnsureCreated();
 
                 //Cinema
-                if (!context.Cinemas.Any())
+                if(!context.Cinemas.Any())
                 {
                     context.Cinemas.AddRange(new List<Cinema>()
                     {
@@ -25,7 +23,7 @@ namespace FlickFlow
                             Logo = "http://dotnethow.net/images/cinemas/cinema-1.jpeg",
                             Description = "This is the description of the first cinema"
                         },
-                        new Cinema()
+                         new Cinema()
                         {
                             Name = "Cinema 2",
                             Logo = "http://dotnethow.net/images/cinemas/cinema-2.jpeg",
@@ -50,7 +48,7 @@ namespace FlickFlow
                             Description = "This is the description of the first cinema"
                         },
                     });
-                    context.SaveChanges();
+                    context.SaveChanges();               
                 }
 
                 //Actors
@@ -319,4 +317,3 @@ namespace FlickFlow
         }
     }
 }
-
