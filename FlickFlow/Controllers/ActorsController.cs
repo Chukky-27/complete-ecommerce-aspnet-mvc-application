@@ -15,7 +15,7 @@ namespace FlickFlow.Controllers
         public IActionResult Index()
         {
             var data = _appDbContext.Actors.ToList();
-            return View();
+            return View(data);
         }
     }
 }
