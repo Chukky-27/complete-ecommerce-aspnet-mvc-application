@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FlickFlow.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240419025436_Updated")]
-    partial class Updated
+    [Migration("20240422015232_fixCinemaId")]
+    partial class fixCinemaId
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -100,7 +100,7 @@ namespace FlickFlow.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ImageURL")
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("MovieCategory")
