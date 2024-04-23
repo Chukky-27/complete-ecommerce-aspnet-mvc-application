@@ -1,20 +1,21 @@
 ﻿using FlickFlow.Data;
+using FlickFlow.Data.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FlickFlow.Controllers
 {
     public class ActorsController : Controller
     {
-        private readonly AppDbContext _appDbContext;
+        private readonly IActorsService _actorsService;
 
-        public ActorsController(AppDbContext appDbContext)
+        public ActorsController(IActorsService actorsService)
         {
-            _appDbContext = appDbContext;
+            _actorsService = actorsService;
         }
 
-        public IActionResult Index()
+        public async Task <IActionResult> Index()
         {
-            var data = _appDbContext.Actors.ToList();
+            var data = await _actorsService.GetAllActors();
             return View(data);
         }
     }
