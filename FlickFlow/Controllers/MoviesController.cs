@@ -14,7 +14,7 @@ namespace FlickFlow.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var allMovies = await _appDbContext.Movies.ToListAsync();
+            var allMovies = await _appDbContext.Movies.Include(n => n.Cinema).OrderBy(n => n.Name).ToListAsync();
             return View(allMovies);
         }
     }
