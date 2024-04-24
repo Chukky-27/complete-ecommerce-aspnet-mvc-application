@@ -1,5 +1,5 @@
-﻿using FlickFlow.Data;
-using FlickFlow.Data.Services;
+﻿using FlickFlow.Data.Services;
+using FlickFlow.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FlickFlow.Controllers
@@ -23,6 +23,17 @@ namespace FlickFlow.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("FullName,ProfilePictureURL,Bio")]Actor actor)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(actor);
+            }
+            _actorsService.AddActor(actor);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

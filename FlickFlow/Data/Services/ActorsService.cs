@@ -14,7 +14,8 @@ namespace FlickFlow.Data.Services
 
         public void AddActor(Actor actor)
         {
-            throw new NotImplementedException();
+            _appDbContext.Actors.Add(actor);
+            _appDbContext.SaveChanges();
         }
 
         public void DeleteActor(int id)
