@@ -32,8 +32,17 @@ namespace FlickFlow.Controllers
             {
                 return View(actor);
             }
-            _actorsService.AddActor(actor);
+            await _actorsService.AddActorAsync(actor);
             return RedirectToAction(nameof(Index));
+        }
+
+        //Get: Actors/Details/1
+        public async Task<IActionResult> Details(int id)
+        {
+            var actorDetails = await _actorsService.GetActorByIdAsync(id);
+
+            if (actorDetails == null) return View("Empty");
+            return View(actorDetails);
         }
     }
 }

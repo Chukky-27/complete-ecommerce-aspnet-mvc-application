@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\views\\actors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\views\\actors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\views\\actors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\views\\actors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\views\\actors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|solutionrelative:flickflow\\views\\actors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03E0E04B-A1A4-40AC-B383-C3038DCE5219}|FlickFlow\\FlickFlow.csproj|c:\\users\\user\\downloads\\flickflow\\complete-ecommerce-aspnet-mvc-application\\flickflow\\data\\services\\actorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Views\\Actors\\Create.cshtml",
               "RelativeDocumentMoniker": "FlickFlow\\Views\\Actors\\Create.cshtml",
               "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Views\\Actors\\Create.cshtml",
               "RelativeToolTip": "FlickFlow\\Views\\Actors\\Create.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAADMAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T13:16:44.392Z",
+              "WhenOpened": "2024-06-06T23:09:50.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActorsService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Data\\Services\\ActorsService.cs",
-              "RelativeDocumentMoniker": "FlickFlow\\Data\\Services\\ActorsService.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Data\\Services\\ActorsService.cs",
-              "RelativeToolTip": "FlickFlow\\Data\\Services\\ActorsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:15:07.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Actor.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Models\\Actor.cs",
-              "RelativeDocumentMoniker": "FlickFlow\\Models\\Actor.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Models\\Actor.cs",
-              "RelativeToolTip": "FlickFlow\\Models\\Actor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:01:45.658Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Views\\Actors\\Index.cshtml",
+              "RelativeDocumentMoniker": "FlickFlow\\Views\\Actors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Views\\Actors\\Index.cshtml",
+              "RelativeToolTip": "FlickFlow\\Views\\Actors\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T22:38:42.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Views\\Actors\\Details.cshtml",
+              "RelativeDocumentMoniker": "FlickFlow\\Views\\Actors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Views\\Actors\\Details.cshtml",
+              "RelativeToolTip": "FlickFlow\\Views\\Actors\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T11:58:05.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ActorsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Controllers\\ActorsController.cs",
               "RelativeDocumentMoniker": "FlickFlow\\Controllers\\ActorsController.cs",
               "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Controllers\\ActorsController.cs",
               "RelativeToolTip": "FlickFlow\\Controllers\\ActorsController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwCQAAAAIAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T12:57:13.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorsService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Data\\Services\\ActorsService.cs",
+              "RelativeDocumentMoniker": "FlickFlow\\Data\\Services\\ActorsService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\Data\\Services\\ActorsService.cs",
+              "RelativeToolTip": "FlickFlow\\Data\\Services\\ActorsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:15:07.618Z",
               "EditorCaption": ""
             }
           ]

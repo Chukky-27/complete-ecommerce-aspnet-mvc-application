@@ -12,10 +12,10 @@ namespace FlickFlow.Data.Services
             _appDbContext = appDbContext;
         }
 
-        public void AddActor(Actor actor)
+        public async Task AddActorAsync(Actor actor)
         {
-            _appDbContext.Actors.Add(actor);
-            _appDbContext.SaveChanges();
+            await _appDbContext.Actors.AddAsync(actor);
+            await _appDbContext.SaveChangesAsync();
         }
 
         public void DeleteActor(int id)
@@ -23,9 +23,11 @@ namespace FlickFlow.Data.Services
             throw new NotImplementedException();
         }
 
-        public Actor GetActorById(int id)
+        public async Task<Actor> GetActorByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var result = await _appDbContext.Actors
+                .FirstOrDefaultAsync(n => n.Id == id);
+            return result;
         }
 
         public async Task<IEnumerable<Actor>> GetAllActors()
