@@ -15,7 +15,7 @@ namespace FlickFlow.Controllers
         public async Task<IActionResult> Index()
         {
             var allProducers = await _appDbContext.Producers.ToListAsync();
-            return View();
+            return View(allProducers);
         }
     }
 }

@@ -6,8 +6,11 @@ namespace FlickFlow.Models
     {
         [Key]
         public int Id { get; set; }
-        public string ProfilePictureURL { get; set; }     
-        public string FullName { get; set; }        
+        [Display(Name = "Profile Picture")]
+        public string ProfilePictureURL { get; set; }
+        [Display(Name ="Full Name")]
+        public string FullName { get; set; }
+        [Display(Name ="Biogrpahy")]
         public string Bio { get; set; }
 
         //Relationships

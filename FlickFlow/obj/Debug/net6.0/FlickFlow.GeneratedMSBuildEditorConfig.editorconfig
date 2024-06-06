@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\Downloads\FLiCkFLoW\complete-ecommerce-aspnet-mvc-application\FlickFlow
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Actors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Cinemas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Producers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Downloads/FLiCkFLoW/complete-ecommerce-aspnet-mvc-application/FlickFlow/Views/Shared/Error.cshtml]
