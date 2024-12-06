@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1JT1rKlLUE=",
+  "dgSpecHash": "OblOrZQ7QzM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Downloads\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\FlickFlow.csproj",
+  "projectFilePath": "C:\\Users\\user\\Downloads\\PROJECTS\\FLiCkFLoW\\complete-ecommerce-aspnet-mvc-application\\FlickFlow\\FlickFlow.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
